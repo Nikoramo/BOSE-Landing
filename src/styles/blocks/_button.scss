@@ -10,7 +10,7 @@
   box-sizing: border-box;
   border: 2px transparent solid;
 
-  color: #fff;
+  color: $c-white;
   text-decoration: none;
   font-weight: 700;
   line-height: 27px;
@@ -20,12 +20,12 @@
 
   &:hover {
     color: $main-font-color;
-    background-color: #fff;
+    background-color: $c-white;
     border-color: $main-font-color;
   }
 
   &:active {
     background-color: #111;
-    color: #fff;
+    color: $c-white;
   }
 }
